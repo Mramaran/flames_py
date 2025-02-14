@@ -28,5 +28,5 @@ def flames(n):
 name1=input("Enter Person_1 name:")
 name2=input("Enter Person_2 name:")
 n=difference(name1,name2)
-definition={'f':"friends",'l':"Lovers",'a':"Affection",'m':"Marrage",'e':"Enemy",'s':"Sister"}
+definition={'f':"friends",'l':"Lovers",'a':"Affection",'m':"Marriage",'e':"Enemy",'s':"Sister"}
 print(definition[flames(n)])
